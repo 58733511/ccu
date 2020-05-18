@@ -11,7 +11,7 @@ docker push ccu.uni-konstanz.de:5000/<your.username>/xxxxx
 
 make the job-script.yaml
 
-
+kubectl apply -f job-script.yaml
 kubectl get pods
 
 kubectl logs xxxxxx
