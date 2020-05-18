@@ -20,4 +20,4 @@ kubectl describe pod xxxxx
 
 kubectl exec -it xxxx /bin/bash
 
-kubectl cp leichen-wang-pix2pix-pytorch-pvc-8jfvw:datasets/oxford_car/images home/leichen/images
+kubectl cp leichen-wang-pix2pix-pytorch-pvc-8jfvw:datasets/oxford_car/images /home/leichen/images
