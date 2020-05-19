@@ -14,7 +14,7 @@ docker push ccu.uni-konstanz.de:5000/leichen.wang/pix2pix-pytorch
 
 make the job-script.yaml
 
-kubectl apply -f job-script.yaml
+kubectl apply -f job-script-pvc.yaml
 
 kubectl get pods
 
