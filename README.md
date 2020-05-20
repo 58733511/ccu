@@ -24,7 +24,7 @@ kubectl describe pod xxxxx
 
 kubectl exec -it xxxx /bin/bash
 
-kubectl cp leichen-wang-pix2pix-pytorch-pvc-8jfvw:datasets/oxford_car/images /home/leichen/images
+kubectl cp leichen-wang-pix2pixhd-pytorch-pvc-8jfvw:/mnt/pvc-pix2pix /home/leichen/images
 
 kubectl delete -f job-script.yaml
 
