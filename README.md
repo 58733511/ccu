@@ -9,7 +9,7 @@ make the docker-compose.yml and Dockerfile
 
 docker-compose up --build
 
-docker push ccu.uni-konstanz.de:5000/leichen.wang/pix2pix-pytorch
+docker push ccu.uni-konstanz.de:5000/leichen.wang/pix2pixhd-pytorch
 
 
 make the job-script.yaml
