@@ -30,3 +30,7 @@ kubectl delete -f job-script.yaml
 
 leichen-wang-pix2pix-pytorch-pvc
 /mnt/pvc-pix2pix
+
+
+find node > kubectl describe pod your-username-tf-mnist-tb-pvc-mqt9m | grep Node
+Node:               glasya/134.34.226.30
